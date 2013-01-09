@@ -65,6 +65,8 @@ Examples
     cat_columns = ['category_data_1', 'category_data_2']
     num_columns = ['numerical_data']
 
+	# explanation of dataset and module
+    # http://scikit-learn.org/dev/modules/generated/sklearn.datasets.dump_svmlight_file.html
     dump_categorical_df_to_svm_light(X, y, 'example', cat_columns, num_columns)
 
     head example    
